@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
-        DOCKER_IMAGE_NAME = "abdelrhmanH21ain-schedule"
+        DOCKER_IMAGE_NAME = "abdelrhmanh21ain-schedule"
         CANARY_REPLICAS = 0
     }
     stages {
